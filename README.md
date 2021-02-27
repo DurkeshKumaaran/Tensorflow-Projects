@@ -24,3 +24,4 @@ Max Pooling--The maximum pixel in the specified shape is taken out and the image
 *RMSprop optimizer  with a learning rate of 0.001 is defined with a binary cross entropy loss function
 *Image Data Generator is imported from keras preprocessing image module and the images are rescaled and trained with 15 epochs
 *Numpy is used to convert the image into a vertical stack array and the test image set is validated 
+*Meanwhile, by adding image augmentation, overfitting can be avoided
