@@ -25,3 +25,7 @@ Max Pooling--The maximum pixel in the specified shape is taken out and the image
 *Image Data Generator is imported from keras preprocessing image module and the images are rescaled and trained with 15 epochs
 *Numpy is used to convert the image into a vertical stack array and the test image set is validated 
 *Meanwhile, by adding image augmentation, overfitting can be avoided
+
+#Transfer Learning Model
+*Pre trained model is downloaded and the convolution layer is disconnected in the existing model
+*The new model is trained and the existing model is added additionally for greater accuracy
