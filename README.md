@@ -27,5 +27,5 @@ Max Pooling--The maximum pixel in the specified shape is taken out and the image
 *Meanwhile, by adding image augmentation, overfitting can be avoided
 
 #Transfer Learning Model
-*Pre trained model is downloaded and the convolution layer is disconnected in the existing model
+*Pre trained model is downloaded, the last layer is taken in the existing model and is trained with concolutions on the local machine 
 *The new model is trained and the existing model is added additionally for greater accuracy
