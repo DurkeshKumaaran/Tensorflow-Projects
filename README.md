@@ -37,5 +37,3 @@ Project one- To detect the given headline belongs to sarcastic or non sarcastic
 *Word indexing and sequence padding is done using tokenizer by setting up the parameters
 *The sequences are converted to an array with numpy and the sequential model is developed with embedding, global average pooling with 24 dense intermediate neurons and compiled with binary classification
 *The training and validation model is fitted against with an accuracy of 99.3% and a 81.3% validation accuracy
-
-*
