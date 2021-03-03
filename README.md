@@ -29,3 +29,13 @@ Max Pooling--The maximum pixel in the specified shape is taken out and the image
 #Transfer Learning Model
 *Pre trained model is downloaded, the last layer is taken in the existing model and is trained with concolutions on the local machine 
 *The new model is trained and the existing model is added additionally for greater accuracy
+
+#Natural Language Processing
+Project one- To detect the given headline belongs to sarcastic or non sarcastic
+*Firstly, check the TF version , if its based on version one, then add eager execution
+*Classify, the training and testing sentences and labels
+*Word indexing and sequence padding is done using tokenizer by setting up the parameters
+*The sequences are converted to an array with numpy and the sequential model is developed with embedding, global average pooling with 24 dense intermediate neurons and compiled with binary classification
+*The training and validation model is fitted against with an accuracy of 99.3% and a 81.3% validation accuracy
+
+*
