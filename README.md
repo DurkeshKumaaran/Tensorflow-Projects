@@ -31,7 +31,7 @@ Max Pooling--The maximum pixel in the specified shape is taken out and the image
 *The new model is trained and the existing model is added additionally for greater accuracy
 
 #Natural Language Processing
-Project one- To detect the given headline belongs to sarcastic or non sarcastic
+Project one- To detect the given headline belongs to sarcastic or not
 *Firstly, check the TF version , if its based on version one, then add eager execution
 *Classify, the training and testing sentences and labels
 *Word indexing and sequence padding is done using tokenizer by setting up the parameters
