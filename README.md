@@ -31,9 +31,25 @@ Max Pooling--The maximum pixel in the specified shape is taken out and the image
 *The new model is trained and the existing model is added additionally for greater accuracy
 
 #Natural Language Processing
-Project one- To detect the given headline belongs to sarcastic or not
+
+Project description:
+Find out the accurate neural network to classify Saracasm
+
+Neural Nets used :
+Simple RNN,
+LSTM,
+Convolution,
+GRU
+
+Process:
 *Firstly, check the TF version , if its based on version one, then add eager execution
 *Classify, the training and testing sentences and labels
 *Word indexing and sequence padding is done using tokenizer by setting up the parameters
-*The sequences are converted to an array with numpy and the sequential model is developed with embedding, global average pooling with 24 dense intermediate neurons and compiled with binary classification
-*The training and validation model is fitted against with an accuracy of 99.3% and a 81.3% validation accuracy
+*The sequences are converted to an array with numpy and the sequential model is developed with embedding and appropriate neural nets are tested and compiled with binary classification
+
+Results:
+Model | Epochs | Training Accuracy | Validation
+Simple RNN | 30 | 99.34% | 81.64%
+LSTM | 30 | 99.96% | 81.83%
+Convolution | 30 | 99.94% | 82.17%
+GRU | 30 | 99.95% | 83.23%
