@@ -49,7 +49,15 @@ Process:
 
 Results:
 Model | Epochs | Training Accuracy | Validation
+
+
 Simple RNN | 30 | 99.34% | 81.64%
+
+
 LSTM | 30 | 99.96% | 81.83%
+
+
 Convolution | 30 | 99.94% | 82.17%
+
+
 GRU | 30 | 99.95% | 83.23%
